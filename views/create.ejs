@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>create</title>
+  </head>
+  <body>
+    <form action="/create" method="post">
+      <input type="text" name="type" placeholder="loại: diary, lesson"><br>
+      <input type="text" name="title" placeholder="tiêu đề"><br>
+      <input type="text" name="describe" placeholder="mô tả tối đa 100 ký tự"><br>
+      <input type="text" name="thumbnail" placeholder="thumbnail"><br>
+      <input type="text" name="content" placeholder="content"><br>
+      <p>content có dạng: type:::value***type2:::value2, cách nhau bởi dấu ***, định dạng quy định là type</p>
+      <input type="text" name="tags" placeholder="tags"><br>
+      <p>Tags: cách nhau bơi dấu phẩy, ví dụ: nhạc,game,súng</p>
+      <input type="text" name="min_read" placeholder="min_read"><br>
+      <input type="submit" value="gửi">
+    </form>
+  </body>
+</html>
